@@ -1,441 +1,244 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
-	<title>International Workshop on Hot Topics in Databases</title>
-	
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Bootstrap 5 Tech Conference Template">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-	<link rel="shortcut icon" href="favicon.ico"> 
-	
-	<!-- Google Font -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tektur">
+    <title>International Workshop on Hot Topics in Databases</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tektur">
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+</head>
 
-	<!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
+<body>
+    <header id="header" class="header fixed-top">
+        <div class="branding">
+            <div class="container-fluid">
+                <nav class="main-nav navbar navbar-expand-lg">
+                    <div class="site-logo">
+                        <a class="scrollto">
+                            <img class="logo-icon" src="assets/images/HotDB.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item"><a class="nav-link scrollto" href="#news">News <i
+                                        class="fas fa-envelope"></i></a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#cfp">CFP</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#submission">Submission</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#date">Dates</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#org">Organization</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#keynote">Keynotes</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#program">Program</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#venue">Venue</a></li>
+                            <li class="nav-item"><a class="nav-link scrollto" href="#sponsor">Sponsors</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-	<!-- Theme CSS -->  
-	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
-
-
-</head> 
-
-<body>    
-	<header id="header" class="header fixed-top">	    
-		<div class="branding">
-			<div class="container-fluid">
-				<nav class="main-nav navbar navbar-expand-lg">
-					<!-- <div class="site-logo"><a class="scrollto"><img class="logo-icon" src="assets/images/HotDB.svg" alt="logo"></a></div>     -->
-					
-					 <!-- <div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="#speakers-section">Register Now</a></div>> -->
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					
-					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
-						<ul class="nav navbar-nav">
-							
-							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
-							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li> -->
-							<li class="nav-item"><a class="nav-link scrollto" href="#cfp">CFP</a></li>
-
-							<li class="nav-item"><a class="nav-link scrollto" href="#reg">Register</a></li>
-
-							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Program</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Organizers</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li>
-						</ul><!--//nav-->
-					</div><!--//navabr-collapse-->
-
-				</nav><!--//main-nav-->
-				
-			</div><!--//container-->
-		</div><!--//branding-->
-	</header><!--//header-->
-	
-	<div id="hero-block" class="hero-block">
-		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item-1 carousel-item active">
-				</div>
-				<!-- <div class="carousel-item-2 carousel-item">
-				</div>
-				<div class="carousel-item-3 carousel-item">
-				</div> -->
-			</div>
-		</div>
-		<div class="hero-block-mask"></div>
-		<div class="container">
-			<div class="hero-text-block">
-				<h1 class="hero-heading mb-2">HotDB 2023</h1>
-				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>12 - 15 Oct <i class="fas fa-map-marker-alt mx-2"></i>West Lafayette, Indiana</div>
-				<div class="hero-intro mb-4" style="font-family: 'Tektur';">1st International Workshop on  Hot Topics in Databases</div>
-				<!-- <div class="hero-cta"><a class="btn btn-primary btn-lg" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Tickets</a></div> -->
-				
-			</div><!--//hero-text-block-->
-		</div><!--//container-->
-
-	</div><!--//hero-block-->
-	
-
-	<section id="about-section" class="tickets-section section theme-bg-light">
-		<div class="container mb-4">
-			<h3 class="section-heading text-center mb-3">About HotDB</h3>
-			<div class="section-intro single-col-max mx-auto mb-4">
-				Participants in the 1st Workshop on Hot Topics in Databases
-				will present and discuss new ideas in databases research
-				 and how technological advances and new applications are shaping our data systems.
-				 We welcome researchers and practitioners old and new. <br>
-				
-			</div>
-
-			<div class="section-intro single-col-max mx-auto mb-4">
-				Please see the <a href="#schedule-section">program</a> for more details.
-			</div>
+    <div id="hero-block" class="hero-block"
+        style="background-image: url('assets/images/santiago-2.jpg'); background-repeat: no-repeat;background-position: center;background-size: 100% 100%;">
+        <div class="hero-block-mask"></div>
+        <div class="container">
+            <div class="hero-text-block">
+                <h1 class="hero-heading mb-2">HotDB 2024</h1>
+                <div class="hero-meta mb-3">
+                    <i class="far fa-calendar-alt me-2"></i>
+                    15 June, 2024
+                    <i class="fas fa-map-marker-alt mx-2"></i>
+                    Santiago, Chile
+                </div>
+                <div class="hero-intro mb-4">
+                    1st International Workshop on Hot Topics in Databases
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="news" class="section  schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">News</h3>
+            <div class="alert alert-success">
+                <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                </span>
+                <ol class="list-group-numbered">
+                    <li class="list-group-item">Paper is out!</li>
+                    <li class="list-group-item">Camera Ready!</li>
+                </ol>
+            </div>
+    </section>
 
 
-
-				
-			<div class="benefits-list text-center mb-3">
-				<h3 class="text-center mb-4" style="font-family: Tektur;">Key Dates</h3>
-				<ul class="list-unstyled text-start d-inline-block">
-					<li><i class="fas fa-check-circle me-2"></i>Paper Submission: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Author Notifications: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Camery Ready: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Workshop Date: Aug 15</li>
-					<!-- <li><i class="fas fa-check-circle me-2"></i>Grow your network</li>
-					<li><i class="fas fa-check-circle me-2"></i>Practical workshops to lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>After-party lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>Free <a href="https://made4dev.com">developer t-shirts</a> and swag</li> -->
-				</ul>
-			</div>
-
-							
-			<div class="benefits-list text-center mb-3" id="cfp">
-				<h3 class="text-center mb-4" style="font-family: Tektur;">Call For Paper</h3>
-				<div class="section-intro single-col-max mx-auto mb-4">
-						Call For Paper Detail goes here.
-				</div>
-	
-			</div>
+    <section id="about" class="section  schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">About HotDB @ SIGMOD</h3>
+            <div class="section-intro mx-auto mb-4">
+                HotDB is a dedicated workshop affiliated with SIGMOD for researchers and industry practitioners to
+                discuss the hot topics and emerging trends in databases. HotDB encourages visionary, risky, and
+                half-baked innovative ideas.
+            </div>
+    </section>
 
 
+    <section id="cfp" class="section schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">CFP</h3>
+            <div class="section-intro mx-auto mb-4">
+                CFP.
+            </div>
+    </section>
+    <section id="submission" class="section schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">Submission</h3>
+            <div class="section-intro mx-auto mb-4">
+                We use Microsoft CMT.
+            </div>
+    </section>
+    <section id="date" class="section  schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">Dates</h3>
+            <ul class="list-unstyled text-start d-inline-block">
+                <li><i class="fas fa-battery-0 me-2"></i>Paper Submission: Aug 15</li>
+                <li><i class="fas fa-battery-2 me-2"></i>Author Notifications: Aug 15</li>
+                <li><i class="fas fa-battery-3 me-2"></i>Camery Ready: Aug 15</li>
+                <li><i class="fas fa-battery-4 me-2"></i>Workshop Date: Aug 15</li>
+            </ul>
+        </div>
+    </section>
+    <section id="org" class="section schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">Organization</h3>
+            <div class="offers text-center p-4 p-lg-5">
+                <h4 class="mb-3">Progrom Chairs</h4>
+                <ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
+                    <li><span class="me-2"><i class="fas"></i></span>
+                        <a href="https://www.cs.purdue.edu/homes/csjgwang/">Jianguo Wang</a>, Purdue University
+                    </li>
+                    <li><span class="me-2"><i class="fas"></i></span>
+                        <a href="https://cs.uwaterloo.ca/~tozsu/">M. Tamer Özsu</a>, University of Waterloo
+                    </li>
+                </ul>
+                <h4 class="mb-3">Progrom Committee</h4>
+                <ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
+                    <li><span class="me-2"><i class="fas"></i></span>Member 1</li>
+                    <li><span class="me-2"><i class="fas"></i></span>Member 2</li>
+                    <li><span class="me-2"><i class="fas"></i></span>Member 3</li>
+                </ul>
+            </div>
+    </section>
 
-				<!-- <ul class="list-unstyled text-start d-inline-block">
-					<li><i class="fas fa-check-circle me-2"></i>Paper Submission: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Author Notifications: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Camery Ready: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Workshop Date: Aug 15</li>
-					<li><i class="fas fa-check-circle me-2"></i>Grow your network</li>
-					<li><i class="fas fa-check-circle me-2"></i>Practical workshops to lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>After-party lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>Free <a href="https://made4dev.com">developer t-shirts</a> and swag</li> -->
-				<!-- </ul>  -->
-			<!-- </div> -->
+    <section id="keynote" class="section schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">Keynotes</h3>
+            <div class="card border-light mb-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/images/hero-1.jpg" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">Database Design for New Hardware</h4>
+                            <p><strong>Abstract:</strong> </p>
+                            <p><strong>Bio:</strong></p>
+                        </div>
+                    </div>
+                </div>
 
-		</div><!--//container-->
+            </div>
+    </section>
 
-		<!-- <div class="media-block theme-bg-primary py-5">
-			<div class="container">
-				<h4 class="text-white text-center mb-3">Previously</h4>
-				<div class="section-intro text-center single-col-max mx-auto text-white mb-5">Conference videos and images from previous years is a great way to show people what to expect at the conference and entice them to join. You can host more media content on YouTube, Flickr or Instagram and link out to them in this section.</div>
-				<div class="row gx-md-5">
-					<div class="col-12 col-md-6 mb-3">
-						<div class="ratio ratio-16x9">
-							
-							<iframe src="https://www.youtube.com/embed/stjniziaxy4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>//embed-responsive
-					</div>//col
-					<div class="col-12 col-md-6 mb-md-5">
-						<div class="ratio ratio-16x9">
-							<iframe src="https://www.youtube.com/embed/NPYqnGNO_zw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>//embed-responsive
-					</div>//col
-				</div>//row
-			</div>//container
-		</div>//media-block -->
-	</section>
-	
-	<section id="reg" class="speakers-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-3">Register</h3>
-			<div class="section-intro text-center single-col-max mx-auto mb-5"> Register Information goes here.</div>
-			<div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="www.google.com" target="_blank">Register</a></div>
-		</div><!--//container-->
-		
-	</section><!--//speakers-section-->
-	
-	<div class="container">
-		<hr>
-	</div>
-	
-	<section id="schedule-section" class="schedule-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-5">Program</h3>
-			
-			<!-- Nav tabs -->
-			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
-				<li class="nav-item me-2">
-					<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
-						<span class="heading">Day 1</span>
-						<span class="meta">(Wed 12, Oct)</span>
-					</a>
-				</li>
-				<li class="nav-item me-2">
-					<a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
-						<span class="heading">Day 2</span>
-						<span class="meta">(Thu 13, Oct)</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
-						<span class="heading">Day 3</span>
-						<span class="meta">(Fri 14, Oct)</span>
-					</a>
-				</li>
-			</ul>
-			
-			<!-- Tab panes -->
-			<div class="schedule-tab-content tab-content">
-				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">9:00 - 9:30</h4>
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">OLTP through the looking glass</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
-							<div class="desc">Michael Stonbaker, MIT; Andy Pavlo, CMU </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">9:30 - 10:00</h4>
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">OLTP through the looking glass</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
-							<div class="desc">Michael Stonbaker, MIT; Andy Pavlo, CMU </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">18:00 - 24:00</h4>
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Dinner &amp; After-party</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Bar Lorem Ipsum</div>
-							<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					
-				</div><!--//tab-1-content-->
-				<div class="tab-pane no-timeline" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
-					<h4 class="text-center py-5 text-muted">Day 2 Agenda Coming Soon...</h4>
-				</div><!--//tab-2-content-->
-				<div class="tab-pane no-timeline" id="tab-3-content" role="tabpanel" aria-labelledby="tab-3">
-					<h4 class="text-center py-5 text-muted">Day 3 Agenda Coming Soon...</h4>
-				</div><!--//tab-3-content-->
-			</div><!--//schedule-tab-content-->
-			<div class="schedule-cta text-center mx-auto"><a href="https://www.cs.purdue.edu/homes/csjgwang/pubs/VLDB23_DSMDB.pdf" class="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Download Schedule</a>
-		</div><!--//container-->
-	</section><!--//schedule-section-->
-	
-	<section id="tickets-section" class="tickets-section section theme-bg-light">
-		<div class="container">
-			<h3 class="section-heading text-center mb-3">Organizers</h3>
-			<div class="offers text-center bg-white p-4 p-lg-5">
-				<h4 class="mb-3" style="font-family: Tektur;">General Chair</h4>
-				<ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-				</ul><!--offers-list-->
-				<h4 class="mb-3" style="font-family: Tektur;">Progrom Chairs</h4>
-				<ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
-					<li><span class="me-2"><i class="fas"></i></span>Walid Aref, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Andy Pavlo, CMU</li>
-				</ul>
-				<h4 class="mb-3" style="font-family: Tektur;">Progrom Committee</h4>
-				<ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
-					<li><span class="me-2"><i class="fas"></i></span>Walid Aref, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
-					<li><span class="me-2"><i class="fas"></i></span>Jianguo Wang, Purdue University</li>
 
-					
-				</ul>
+    <section id="program" class="schedule-section section">
+        <div class="container">
+            <h3 class="section-heading text-center mb-5">Program</h3>
+            <div class="schedule-tab-content tab-content">
+                <div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
+                    <h4 class="text-center mb-3"><strong>Machine Learning for Databases</strong></h4>
+                    <div class="item item-talk">
+                        <div class="meta">
+                            <h4 class="time mb-3">9:00 - 9:30</h4>
+                        </div>
+                        <div class="content">
+                            <h3 class="title mb-3">OLTP through the looking glass</h3>
+                            <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
+                            <div class="desc">Michael Stonbaker, MIT; Andy Pavlo, CMU </div>
+                        </div>
+                    </div>
+                    <div class="item item-talk">
+                        <div class="meta">
+                            <h4 class="time mb-3">9:30 - 10:00</h4>
+                        </div>
+                        <div class="content">
+                            <h3 class="title mb-3">P4DB - The Case for In-Network OLTP</h3>
+                            <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
+                            <div class="desc">Tobias Ziegler, Technical University of Darmstardt </div>
+                        </div>
+                    </div>
+                </div>
 
-			</div><!--//offers-->
+                <div class="tab-pane active" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
+                    <h4 class="text-center mb-3"><strong>Secure Databases</strong></h4>
+                    <div class="item item-talk">
+                        <div class="meta">
+                            <h4 class="time mb-3">9:00 - 9:30</h4>
+                        </div>
+                        <div class="content">
+                            <h3 class="title mb-3">DuckDB: an Embeddable Analytical Database</h3>
+                            <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
+                            <div class="desc">Michael Stonbaker, MIT</div>
+                        </div>
+                    </div>
+                </div>
 
-		</div><!--//container-->
-	</section><!--//tickets-section-->
-	
-	
-	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
-		<div class="container">
-			<h3 class="section-heading text-center mb-5 text-white">Venue</h3>
-			<div class="row gx-5 py-lg-5">
-				<div class="col-12 col-lg-7 h-100">
-					<div class="desc">
-						<h4 class="text-white mb-3" style="font-family: Tektur;">How To Get Here</h4>
-						<p>Your venue info goes here. 
-						
-						<div class="row pt-3">
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title" style="font-family: Tektur;"><i class="fas fa-plane-departure me-2"></i>By Plane</h5>
-									<p> Plane Information
-									</p>
-									<a class="text-white" href="#">Search Tickets &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title" style="font-family: Tektur;"><i class="fas fa-car me-2"></i>By Car</h5>
-									<p> Car Information
-									</p>
-									<a class="text-white" href="#">Check Route &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title" style="font-family: Tektur;"><i class="fas fa-bus-alt me-2"></i>By Bus</h5>
-									<p>
-										Bus Information
-									</p>
-									<a class="text-white" href="#">Book Tickets &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title" style="font-family: Tektur;"><i class="fas fa-subway me-2"></i>By Train</h5>
-									<p>
-											Train INformation
-									</p>
-									<a class="text-white" href="#">Book Tickets &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-						</div><!--//row-->
-						<h4 class="text-white mb-4 mt-3 mt-lg-5" style="font-family: Tektur;">Accommodations</h4>
-						<p>Accomodation info goes here. 
-						</p>
-						<a class="btn btn-ghost" href="#">Search Hotels</a>
-					</div><!--//desc-->
-				</div><!--//col-->
-				<div class="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-100 mt-5 mt-lg-0">
-					<div class="figures-holder">
-						<div class="figure figure-1"><img class="shadow" src="assets/images/venue/venue-1.jpg" alt=""></div>
-						<div class="figure figure-2"><img class="shadow" src="assets/images/venue/venue-2.jpg" alt=""></div>
-						<div class="figure figure-3"><img class="shadow" src="assets/images/venue/venue-3.jpg" alt=""></div>
-						<!-- <div class="figure figure-4"><img class="shadow" src="assets/images/venue/venue-4.jpg" alt=""></div> -->
-					</div><!--//figures-holder-->
-				</div><!--//col-->
-			</div><!--//row-->
-		</div><!--//container-->
-	</section><!--//venue-section-->
+            </div>
+        </div>
+    </section>
 
-	<section id="sponsors-section" class="sponsors-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-3">Sponsors</h3>
-			<!-- <div class="section-intro text-center single-col-max mx-auto mb-5">Want to become a sponsor? Get in touch lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat magna eu accumsan mattis.</div> -->
-			<div class="row logos justify-content-center">
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-1.svg" alt=""></div> -->
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-2.svg" alt=""></div>
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-3.svg" alt=""></div> -->
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-4.svg" alt=""></div> -->
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-5.svg" alt=""></div>
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-6.svg" alt=""></div> -->
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-7.svg" alt=""></div> -->
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-8.svg" alt=""></div> -->
-				<!-- <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-9.svg" alt=""></div> -->
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-10.svg" alt=""></div>
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-11.svg" alt=""></div>
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-12.svg" alt=""></div>
-			</div><!--//row-->
-			<!-- <div class="sponsors-cta text-center pt-5"><a class="btn-primary btn btn-lg" href="#">Become A Sponsor</a></div> -->
-		</div><!--//container-->
-	</section><!--//sponsors-section-->
+    <section id="venue" class="section schedule-section">
+        <div class="container mb-4">
+            <h3 class="section-heading text-center mb-3">Venue</h3>
+            <div class="section-intro mx-auto mb-4">
+                Venue info goes here.
+            </div>
+    </section>
+    <section id="sponsor" class="section schedule-section">
+        <div class="container">
+            <h3 class="section-heading text-center mb-3">Sponsors</h3>
+            <div class="row logos justify-content-center">
+                <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-2.svg" alt="">
+                </div>
+                <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-5.svg" alt="">
+                </div>
+                <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-10.svg" alt="">
+                </div>
+                <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-11.svg" alt="">
+                </div>
+                <div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-12.svg" alt="">
+                </div>
+            </div>
+    </section>
 
-	<footer class="footer py-5 theme-bg-primary">
-		<div class="container text-center">
-			
-			<ul class="social-list list-inline mb-4"> 
-				<li class="list-inline-item me-3"><a href="#"><i class="fas fa-envelope"></i></a></li>
-				<li class="list-inline-item me-3"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-				<li class="list-inline-item me-3"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
-				<li class="list-inline-item me-0"><a href="#"><i class="fab fa-youtube fa-fw"></i></a></li>
-			</ul><!--//social-list-->
-			
-			
-			<ul class="footer-links list-inline mx-auto mb-4">
-				<li class="list-inline-item"><a href="#">Code of Conduct</a></li>
-				<li class="list-inline-item">|</li>
-				<li class="list-inline-item"><a href="#">Terms</a></li>
-				<li class="list-inline-item">|</li>
-				<li class="list-inline-item me-0"><a href="#">Privacy</a></li>
-			</ul><!--//footer-link-->
-			
-			 <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-			<small class="copyright">Designed with <i class="fas fa-heart" style="color: #EC645E;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-			
-		</div><!--//container-->	    
-	</footer>
 
-	<!-- Modal Speaker -->
-	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-1" tabindex="-1" role="dialog" aria-labelledby="speaker-1-ModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
->Speaker Name</h4>
-				</div>
-				<div class="modal-body p-0">
-					<div class="theme-bg-light p-5">
-						<div class="row">
-							<div class="col-12 col-md-auto text-center">
-							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-1.jpg" alt="" />
-							</div>
-							
-							<div class="col text-center text-md-start mx-auto">
-								<h2 class="name mb-2">Speaker Name</h2>
-								<div class="meta">Job Title Or Position</div>
-								<div class="meta mb-2">Company Or Organization</div>
-								<ul class="social-list list-inline mb-0">								
-									<li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-									<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-									<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li>
-								</ul><!--//social-list--> 
-							</div><!--//col-->
-						</div><!--//row-->
-					</div>
-					<div class="desc p-4 p-lg-5">
-						<p>You can put speaker's bio or talk related info here. Duis a mi quis metus porttitor eleifend. Pellentesque finibus ultrices imperdiet. Maecenas auctor tortor quis risus tincidunt, mattis mattis leo placerat. Fusce metus augue, sagittis eget enim vel, venenatis auctor est. In interdum felis massa, ac porta nunc pretium non. In fringilla orci vitae imperdiet malesuada. Vestibulum feugiat lobortis est, in sagittis nisi molestie vel. Mauris ultrices vitae lectus eu feugiat. Fusce semper, nisi at placerat mollis, augue elit pretium enim, eu pellentesque justo purus et lectus. </p>
-						<p class="mb-0">Donec neque magna, molestie vel varius ut, pretium a urna. Pellentesque placerat nunc eu condimentum pellentesque. Vivamus dictum nisl leo, id fermentum lectus porttitor et. Pellentesque tristique erat libero, condimentum porttitor nisl pharetra et.</p>
-					</div>
-				</div><!--//modal-body-->
-			</div><!--//modal-content-->
-		</div><!--//modal-dialog-->
-	</div><!--//modal-->
-	
-	<!-- Javascript -->          
-	<script src="assets/plugins/popper.min.js"></script>
-	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-	<script src="assets/plugins/smoothscroll.min.js"></script>
-	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
-	<script src="assets/js/main.js"></script>  
+    <footer class="footer py-3 theme-bg-primary">
+        <div class="container text-center">
+            <small class="copyright">Copyright SIGMOD 2024</small>
+        </div>
+    </footer>
+
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
-</html> 
 
+</html>
