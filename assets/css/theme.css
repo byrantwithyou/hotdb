@@ -12037,7 +12037,7 @@ a.theme-link:hover {
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
-  background: #141c25;
+  background: #7b7f85;
 }
 
 .navbar-nav .nav-item {
@@ -12178,8 +12178,8 @@ a.theme-link:hover {
 
 /* Section Generic */
 .section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .section-heading {
@@ -12349,8 +12349,8 @@ a.theme-link:hover {
 
 /* Tickets Section */
 .offers-list li {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1.125rem;
 }
 .offers-list li .icon-holder {
@@ -12493,11 +12493,11 @@ a.theme-link:hover {
 }
 @media (max-width: 767.98px) {
   .header {
-    background: rgba(20, 28, 37, 0.95);
+    background: #7b7f85;
   }
   .section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.51rem;
   }
   .hero-block {
     height: auto;
@@ -12535,7 +12535,8 @@ a.theme-link:hover {
     position: static;
     width: auto;
   }
-  .schedule-tab-content .tab-pane:after, .schedule-tab-content .item:after {
+  .schedule-tab-content .tab-pane:after,
+  .schedule-tab-content .item:after {
     display: none;
   }
   .schedule-tab-content .item .content {
